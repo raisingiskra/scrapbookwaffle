@@ -16,9 +16,14 @@
     }
     .title {
       background-color: white;
-      border: solid 7px black;
+      border: solid 7px transparent;
       text-align: center;
       border-radius: 20px;
+      border-image:
+        linear-gradient(white, white),
+        linear-gradient(to right, #fe019a, #eaff00, #00ccff) 1;
+      background-origin: border-box;
+      background-clip: padding-box, border-box;
     }
     .glitter {
       position:absolute;
