@@ -3,6 +3,8 @@
       background-attachment: fixed;
       background-size: cover;
       font-family:"Comic Relief", monospace;
+      height:100%;
+      margin:0;
     }
     .title {
       background-color: white;
