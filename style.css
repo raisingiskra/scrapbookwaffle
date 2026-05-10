@@ -40,16 +40,18 @@
       top:10px;
     }
       .columns {
-      position:absolute;
-      background-color:white;
-      border: solid 7px transparent;
-      border-radius: 20px;
-      background-image:
+    position: absolute;
+    top: 150px;   /* adjust to wherever you want it */
+    left: 50px;   /* adjust to wherever you want it */
+    width: 25%;
+    height: 300px; /* or whatever height makes sense */
+    background-color: white;
+    border: solid 7px transparent;
+    border-radius: 20px;
+    background-image:
         linear-gradient(white, white),
         linear-gradient(to right, #fe019a, #eaff00, #00ccff);
-      background-origin: border-box;
-      background-clip: padding-box, border-box;
-      height:3000px;
-      width:25%;
-      margin-top:10px;
-      }
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    box-sizing: border-box; /* ensures border is included in width/height */
+}
