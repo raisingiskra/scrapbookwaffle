@@ -41,6 +41,7 @@
     }
       .column {
       display:flex;
+      align-items:stretch;
       background-color:white;
       border: solid 7px transparent;
       border-radius: 20px;
