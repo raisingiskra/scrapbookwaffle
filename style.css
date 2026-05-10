@@ -41,7 +41,7 @@
     }
       .columns {
     position: absolute;
-    top: 150px;   /* adjust to wherever you want it */
+    top: 200px;   /* adjust to wherever you want it */
     left: 50px;   /* adjust to wherever you want it */
     width: 25%;
     height: 300px; /* or whatever height makes sense */
