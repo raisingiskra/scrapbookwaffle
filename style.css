@@ -39,3 +39,16 @@
     .heading {
       position:relative;
       top:10px;
+    }
+      .column {
+      float:left;
+      background-color:white;
+      border: solid 7px transparent;
+      border-radius: 20px;
+      background-image:
+        linear-gradient(white, white),
+        linear-gradient(to right, #fe019a, #eaff00, #00ccff);
+      background-origin: border-box;
+      background-clip: padding-box, border-box;
+      height:500px;
+      }
