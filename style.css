@@ -50,6 +50,7 @@
         linear-gradient(to right, #fe019a, #eaff00, #00ccff);
       background-origin: border-box;
       background-clip: padding-box, border-box;
-      height:200px;
+      height:25%;
+      width:100px;
       margin-top:10px;
       }
