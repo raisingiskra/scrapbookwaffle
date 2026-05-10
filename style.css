@@ -40,7 +40,7 @@
       top:10px;
     }
       .column {
-      float:left;
+      display:flex;
       background-color:white;
       border: solid 7px transparent;
       border-radius: 20px;
@@ -49,6 +49,6 @@
         linear-gradient(to right, #fe019a, #eaff00, #00ccff);
       background-origin: border-box;
       background-clip: padding-box, border-box;
-      height:5px;
+      height:200px;
       margin-top:10px;
       }
